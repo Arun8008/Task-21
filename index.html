@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Java Script</title>
+	  <style>
+	    *{
+		  box-sizing:border-box;
+		}  
+		
+		.section{
+			width:500px;
+			height:auto;
+			padding:40px;
+			box-shadow:0 0 10px #ccc;
+		}   
+		label{
+		    font-size:18px;
+		}
+		input{
+			width:100%;
+			height:40px;
+			margin-top:5px;
+			margin-bottom:20px;
+			border-radius:5px;
+			border:1px solid #ccc;
+			padding:0 10px;
+			font-size:14px
+		}
+		
+		.click{
+		   text-align:center;
+		}
+		
+		#btn{ 
+			background-color:#8fe5e7;
+			border: none;
+			border-radius:5px;
+			color: #000;
+			font-size: 18px;
+			font-weight:600;
+			padding:10px 55px;
+			cursor:pointer;
+			margin-top:20px;
+		  }
+	  </style>
+</head>
+<body>
+<div class="section">
+    <form id="form">
+        <label for="name">Name:</label>
+		<input type="text" id="name" autocomplete="off"><br>
+		<label for="age">Age:</label>
+		<input type="text" id="age"><br>
+	    <!-- <label for="mail">E-mail:</label> -->
+		<!-- <input type="mail" id="mail"><br> -->
+	    <!-- <label for="qualification">Qualification:</label> -->
+		<!-- <input type="text" id="qualification"><br> -->
+		<div class="click">
+		<button id="btn" onclick="click">Click</button>
+		</div>
+    </form>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
